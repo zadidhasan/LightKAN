@@ -26,11 +26,11 @@ This repository contains the codes for our project on 3d human motion prediction
 ------
 All of our datasets were taken from their official websites.
 
-[H3.6M](http://vision.imar.ro/human3.6m/description.php)
+- [H3.6M](http://vision.imar.ro/human3.6m/description.php)
 
-[AMASS](https://amass.is.tue.mpg.de/)
+- [AMASS](https://amass.is.tue.mpg.de/)
 
-[3DPW](https://virtualhumans.mpi-inf.mpg.de/3DPW/)
+- [3DPW](https://virtualhumans.mpi-inf.mpg.de/3DPW/)
 
 ### Commands
 
