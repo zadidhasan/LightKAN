@@ -58,5 +58,3 @@ python test.py --model-pth your/model/path
 #Test on 3DPW
 python test_3dpw.py --model-pth your/model/path 
 ```
-
-### Acknowledgements
