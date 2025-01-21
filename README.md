@@ -33,5 +33,30 @@ All of our datasets were taken from their official websites.
 - [3DPW](https://virtualhumans.mpi-inf.mpg.de/3DPW/)
 
 ### Commands
+------
+#### H3.6M
+##### Training
+```bash
+cd h36m
+CUBLAS_WORKSPACE_CONFIG=:4096:8 python train.py
+```
+##### Evaluation
+```bash
+python test.py --model-pth your/model/path
+```
+
+#### AMASS AND 3DPW
+##### Training
+```bash
+cd amass_and_3dpw
+CUBLAS_WORKSPACE_CONFIG=:4096:8 python train.py
+```
+##### Evaluation
+```bash
+#Test on AMASS
+python test.py --model-pth your/model/path 
+#Test on 3DPW
+python test_3dpw.py --model-pth your/model/path 
+```
 
 ### Acknowledgements
